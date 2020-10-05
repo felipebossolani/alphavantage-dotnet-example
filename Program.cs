@@ -24,7 +24,7 @@ namespace alphavantage_dotnet_example
             using var client = new AlphaVantageClient(apiKey);
             using var stocksClient = client.Stocks();
 
-            var stocks = new string[] { "AMZN", "STNE", "CQQQ", "VNQ", "BRK-B" }; //, "GOOG", "SPY", "QQQ", "AAPL", "EWY", "VNQI", "EWJ", "MSFT", "MELI", "CZZ", "GOOGL", "DIS" };
+            var stocks = new string[] { /*"AMZN", "STNE", "CQQQ", "VNQ", "BRK-B", "GOOG", "SPY", "QQQ", "AAPL", "EWY", "VNQI", "EWJ", "MSFT", "MELI", "CZZ",*/ "GOOGL", "DIS" };
 
             foreach (var stock in stocks)
             {
